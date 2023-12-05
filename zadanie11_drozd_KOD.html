@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <script type="text/javascript">
+        function okno_zamknij_Drozd() {
+            window.close();
+        }
+    </script>
+</head>
+
+<body>
+    <form>
+
+        <textarea name="Drozd" cols="80" rows="25" disabled>
+ 
+Drozd Szymon 3F_2
+<!DOCTYPE html>
+<head>
+<title> proste obliczenia</title>
+<meta charset="utf-8">
+</head>
+<body>
+    <div style="color:green; font-size: 48px;">
+        <script lang="JavaScript">
+            var liczba1 = prompt("D1=", "");
+            var liczba2 = prompt("D2=", "");
+            var ile_sekund_dro;
+            var D1_dro = parseFloat(liczba1);
+            var D2_dro = parseFloat(liczba2);
+
+            ile_sekund_dro = (D1_dro - D2_dro) * 24 * 3600;
+            document.write("D1=" + D1_dro + "D2=" + D2_dro + "<br>");
+            document.write("ile sekund=" + ile_sekund_dro + "s" + "<br>");
+        </script>
+    </div>
+
+</textarea>
+    </form>
+    <input type="button" value="zamknij okno" onclick="okno_zamknij_Drozd()" />
+    <script type="text/javascript">
+    </script>
+</body>
+
+</html>

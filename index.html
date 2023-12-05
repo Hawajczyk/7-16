@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drozd 3F</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        input[type="button"] {
+            padding: 10px;
+            border: 2px solid #4285f4;
+            border-radius: 5px;
+            background-color: #4285f4;
+            color: #ffffff;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 14px;
+            transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+        }
+
+        input[type="button"]:hover {
+            background-color: #3367d6;
+            border-color: #3367d6;
+            color: #ffffff;
+        }
+
+        input[type="button"][name^="zadanie"]:hover {
+            background-color: #34a853;
+            border-color: #34a853;
+        }
+
+        input[type="button"][name^="zadanie"]:hover {
+            background-color: #2d8339;
+            border-color: #2d8339;
+        }
+
+        input[type="button"][value="zamknij okno"] {
+            background-color: #d14836;
+            border-color: #d14836;
+        }
+
+        input[type="button"][value="zamknij okno"]:hover {
+            background-color: #b03424;
+            border-color: #b03424;
+        }
+    </style>
+    <script type="text/javascript" src="zadanie4_drozd.js"></script>
+    <script language="JavaScript">
+        function openWindow(url) {
+            window.open(url, "okienko_z4", "toolbar=no,directories=no,menubar=no,height=380,width=160,top=200,left=400");
+        }
+
+        function okno_zamknij() {
+            window.close();
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="button" name="zadanie7" value="zadanie7-Drozd" onclick="openWindow('zadanie7_drozd.html')">
+        <input type="button" name="zadanie8" value="zadanie8-Drozd" onclick="openWindow('zadanie8_drozd.html')">
+        <input type="button" name="zadanie9" value="zadanie9-Drozd" onclick="openWindow('zadanie9_drozd.html')">
+        <input type="button" name="zadanie10" value="zadanie10-Drozd" onclick="openWindow('zadanie10_drozd.html')">
+        <input type="button" name="zadanie11" value="zadanie11-Drozd" onclick="openWindow('zadanie11_drozd.html')">
+        <input type="button" name="zadanie11_KOD" value="zadanie11-Drozd_KOD" onclick="openWindow('zadanie11_drozd_KOD.html')">
+        <input type="button" name="zadanie12" value="zadanie12-Drozd" onclick="openWindow('zadanie12_drozd.html')">
+        <input type="button" name="zadanie12_KOD" value="zadanie12-Drozd_KOD" onclick="openWindow('zadanie12_drozd_KOD.html')">
+        <input type="button" name="zadanie13" value="zadanie13-Drozd" onclick="openWindow('zadanie13_drozd.html')">
+        <input type="button" name="zadanie13_KOD" value="zadanie13-Drozd_KOD" onclick="openWindow('zadanie13_drozd_KOD.html')">
+        <input type="button" name="zadanie14" value="zadanie14-Drozd" onclick="openWindow('zadanie14_drozd.html')">
+        <input type="button" name="zadanie14_KOD" value="zadanie14-Drozd_KOD" onclick="openWindow('zadanie14_drozd_KOD.html')">
+        <input type="button" name="zadanie15" value="zadanie15-Drozd" onclick="openWindow('zadanie15_drozd.html')">
+        <input type="button" name="zadanie15_KOD" value="zadanie15-Drozd_KOD" onclick="openWindow('zadanie15_drozd_KOD.html')">
+        <input type="button" name="zadanie16" value="zadanie16-Drozd" onclick="openWindow('zadanie16_drozd.html')">
+        <input type="button" name="zadanie16_KOD" value="zadanie16-Drozd_KOD" onclick="openWindow('zadanie16_drozd_KOD.html')">
+        <input type="button" value="zamknij okno" onclick="okno_zamknij()" />
+    </form>
+</body>
+</html>

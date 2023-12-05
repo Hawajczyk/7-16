@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <div style="color:green; font-size: 45px;">
+        <script lang="JavaScript">
+            var liczba1 = prompt("podaj a=", "");
+            var a_dro = parseFloat(liczba1);
+            var liczba2 = prompt("podaj b=", "");
+            var b_dro = parseFloat(liczba2);
+            document.write("a=" + a_dro + "<br>");
+            document.write("b=" + b_dro + "<br>");
+            document.write("(" + a_dro + "+" + b_dro + ")^3=");
+            document.write(a_dro + "^3+3*" + a_dro + "^2*" + b_dro + "+3*" + a_dro + "*" + b_dro + "^2+" + b_dro + "^3" +
+                "=");
+            document.write(a_dro * a_dro * a_dro + 3 * (a_dro * a_dro) * b_dro + 3 * a_dro * (b_dro * b_dro) +
+                b_dro * b_dro * b_dro);
+        </script>
+    </div>
+</body>
+
+</html>

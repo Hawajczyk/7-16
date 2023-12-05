@@ -1,0 +1,1 @@
+document.write("Szkielet zaliczceniowy JavaSript Rafał Drozd 3F".fontcolor("green").fontsize(6)+"<u>");
